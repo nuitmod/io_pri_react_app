@@ -437,6 +437,26 @@
     </section>
     </main>
     <script src="./index.js" type="module"></script>
+    <script type="text/javascript">
+    $('.mobile-tab').hide();
+
+    $('#burg').on('click', function(){
+      $('.mobile-tab').slideToggle(600)
+    })
+
+    $('#podr_info').hide();
+
+      $('#podr').on('click', function(){
+        $('#podr_main').hide(1800);
+
+        $('#podr_info').slideDown(1999)
+      })
+
+      $('#main_name').hover(function(){
+        $(this).fadeOut(100);
+        $(this).fadeIn(500);
+      })
+    </script>
 
 </body>
 
