@@ -3,8 +3,6 @@ const staticAssets = [
   './',
   './index.html',
   './styles.css',
-  './poetry.html',
-  './media.html',
   './index.js',
   './newsApi.js',
   './news-article.js'
