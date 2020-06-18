@@ -4,7 +4,7 @@
 }
 body{
   opasity: 0.39;
-  background: #FFE4E1;//#FAEBD7 ; //#FFC0CB; //#FFE4E1;
+  background: #FFE4E1;//#FAEBD7 ; //#FFC0CB; //#FFE4E1;#ffd1cc; /
   font-weight: 600;
 }
 /*
@@ -155,7 +155,7 @@ input, button, h6{
   background-color: black;
 }
 audio{
-  height: 10px;
+  height: 19px;
   color: black;
   background: black;
   background-color: black;

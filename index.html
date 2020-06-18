@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="./styles.css">
-  <link rel="manifest" href="manifest.json">
+  <link rel="manifest" href="./manifest.json">
   <script
   src="https://code.jquery.com/jquery-3.4.1.js"
   integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
@@ -13,7 +13,7 @@
   <link rel="shortcut icon" href="assets/flower.png">
       <link rel="apple-touch-icon" href="assets/flower.png">
       <meta name="apple-mobile-web-app-status-bar" content="#FFE1C4">
-  <title>Nata pwa</title>
+  <title>Nata</title>
 </head>
 <body>
   <header>
@@ -23,9 +23,9 @@
       <div class="bar">
         <nav id="desktop">
           <ul>
-            <li><a href="index.html">Главная</a></li>
-            <li><a href="#">Стихи</a></li>
-            <li><a href="#">Медиа</a></li>
+            <li><a href="#">Главная</a></li>
+            <li><a href="#up">Стихи</a></li>
+            <li><a href="#radio">Медиа</a></li>
           </ul>
         </nav>
       </div>
@@ -39,15 +39,15 @@
       <div class="mobile-tab">
         <nav id="mobile">
           <ul>
-            <li><a href="index.html">Главная</a></li>
-            <li><a href="#">Стихи</a></li>
-            <li><a href="#">Медиа</a></li>
+            <li><a href="#">Главная</a></li>
+            <li><a href="#up">Стихи</a></li>
+            <li><a href="#radio">Медиа</a></li>
             </ul>
         </nav>
       </div>
     </section>
     <section>
-    <h3>Сайт Натачки</h3>
+    <h3 id='#main_name'>Сайт Натачки</h3>
    <br>
     <h3>Я Натачка - самая красивая принцесса!</h3>
    <img src="./images/nata.jpg" alt="" height="159" width="149"><br>
@@ -58,7 +58,7 @@
     <div class="t1">
       <div id="podr_main">
         <p>Нажимте, если хотите узнать обо мне подробнее:</p>
-        <button id="podr">Узнать</button>
+        <button id="podr">Узнать</button><br>
       </div>
       <div id="podr_info">
         <pre>
@@ -71,24 +71,21 @@
         <strong>Вот!</strong>
 
         Мои стихи и то, как чудесно я их пою,
-        можно посмотреть <a href="#top">здесь</a>
+        можно посмотреть <a href="#up">здесь</a>
         </pre>
       </div>
     <div>
       <h5>А так чудесно пою я!!!</h5>
-      <div>
+      <button id="listen">Послушать</button>
+      <div id="open_to_listen">
         <h5>Однажды</h5>
         <audio controls>
           <source src="./media/Однажды.m4a" type="audio/mpeg">
         </audio>
-      </div>
-      <div>
         <h5>Лила</h5>
         <audio controls>
           <source src="./media/Лила.m4a" type="audio/mpeg">
         </audio>
-      </div>
-      <div>
         <h5>Боль</h5>
         <audio controls>
           <source src="./media/Боль.m4a" type="audio/mpeg">
@@ -96,7 +93,7 @@
       </div>
     </div>
     <br>
-    <div>
+    <div id="radio">
       <h5>Тут мне можно послушать онлайн радио</h5>
       <div>
         <h6>Radio Art - Frederic Chopin</h6>
@@ -108,7 +105,7 @@
     </section>
     <br>
     <section>
-      <p><a name="top"></a></p>
+      <p><a id="up"></a></p>
       <h3>А это мои прекрасные стихи!</h3><br>
       <div>
         <a href="#p1">Расскажите мне сказку</a><br>
@@ -670,7 +667,7 @@
 
 
 
-      <p><a href="#top">Наверх</a></p>
+      <p><a href="#up">Наверх</a></p>
 
     </section>
     </main>
@@ -683,12 +680,18 @@
     })
 
     $('#podr_info').hide();
-
       $('#podr').on('click', function(){
         $('#podr_main').hide(1800);
 
         $('#podr_info').slideDown(1999)
       })
+
+      $('#open_to_listen').hide();
+
+        $('#listen').on('click', function(){
+    //      $(this).hide(1888);
+          $('#open_to_listen').slideDown(1999)
+        })
 
       $('#main_name').hover(function(){
         $(this).fadeOut(100);

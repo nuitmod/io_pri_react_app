@@ -1,4 +1,4 @@
-const cacheName = 'nata-v1';
+const cacheName = 'nata-v2';
 const staticAssets = [
   './',
   './index.html',
