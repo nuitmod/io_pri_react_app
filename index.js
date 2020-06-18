@@ -1,10 +1,10 @@
-import './news-article.js';
-import { topHeadlinesUrl } from './newsApi.js';
+//import './news-article.js';
+//import { topHeadlinesUrl } from './newsApi.js';
 
 window.addEventListener('load', () => {
   registerSW();
 });
-
+/*
 async function getNews() {
   const res = await fetch(topHeadlinesUrl);
   const json = await res.json();
@@ -12,7 +12,7 @@ async function getNews() {
   const main = document.querySelector('main');
 
 }
-
+*/
 async function registerSW() {
   if ('serviceWorker' in navigator) {
     try {

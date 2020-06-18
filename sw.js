@@ -1,11 +1,10 @@
-const cacheName = 'news-v1';
+const cacheName = 'nata-v1';
 const staticAssets = [
   './',
   './index.html',
   './styles.css',
   './index.js',
-  './newsApi.js',
-  './news-article.js'
+
 ];
 
 self.addEventListener('install', async e => {
