@@ -22,3 +22,28 @@ async function registerSW() {
     }
   }
 }
+
+$('.mobile-tab').hide();
+
+$('#burg').on('click', function(){
+  $('.mobile-tab').slideToggle(600)
+})
+
+$('#podr_info').hide();
+  $('#podr').on('click', function(){
+    $('#podr_main').hide(1800);
+
+    $('#podr_info').slideDown(1999)
+  })
+
+  $('#open_to_listen').hide();
+
+    $('#listen').on('click', function(){
+//      $(this).hide(1888);
+      $('#open_to_listen').slideDown(1999)
+    })
+
+  $('#main_name').hover(function(){
+    $(this).fadeOut(100);
+    $(this).fadeIn(500);
+  })

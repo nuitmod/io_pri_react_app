@@ -6,6 +6,7 @@ body{
   opasity: 0.39;
   background: #FFE4E1;//#FAEBD7 ; //#FFC0CB; //#FFE4E1;#ffd1cc; /
   font-weight: 600;
+  -webkit-text-size-adjust: 100%;
 }
 /*
 body {
