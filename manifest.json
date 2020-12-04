@@ -16,6 +16,6 @@
   "start_url": "/nata_pwa_/amp/index.html",
   "background_color": "#000",
   "display": "standalone",
-  "scope": "/",
+  "scope": "/nata_pwa_/",
   "theme_color": "#000"
 }
