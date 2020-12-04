@@ -1,19 +1,19 @@
 {
-  "name": "Nata pwa",
-  "short_name": "Nata",
+  "name": "Nata pwa amp",
+  "short_name": "Nata amp",
   "icons": [
 {
-  "src": "../assets/logo-192.png",
+  "src": "/assets/logo-192.png",
   "type": "image/png",
   "sizes": "192x192"
 },
 {
-  "src": "../assets/logo-512.png",
+  "src": "/assets/logo-512.png",
   "type": "image/png",
   "sizes": "512x512"
 }
 ],
-  "start_url": "/index.html",
+  "start_url": "/amp/index.html",
   "background_color": "#000",
   "display": "standalone",
   "scope": "/",
