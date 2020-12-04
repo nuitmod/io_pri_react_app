@@ -52,7 +52,7 @@ AMP_SW.init({
   cachingStrategy: 'CACHE_FIRST'
 }],
   offlinePageOptions: {
-    url: '/amp/offline.html',
+    url: '/nata_pwa_/amp/offline.html',
     assets: []
   }
 });
