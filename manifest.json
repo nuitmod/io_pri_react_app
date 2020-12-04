@@ -16,6 +16,6 @@
   "start_url": "/amp/index.html",
   "background_color": "#000",
   "display": "standalone",
-  "scope": "/",
+  "scope": "/amp",
   "theme_color": "#000"
 }
