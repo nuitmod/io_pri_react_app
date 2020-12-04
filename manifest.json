@@ -3,19 +3,19 @@
   "short_name": "Nata amp",
   "icons": [
 {
-  "src": "/assets/logo-192.png",
+  "src": "/nata_pwa_/assets/logo-192.png",
   "type": "image/png",
   "sizes": "192x192"
 },
 {
-  "src": "/assets/logo-512.png",
+  "src": "/nata_pwa_/assets/logo-512.png",
   "type": "image/png",
   "sizes": "512x512"
 }
 ],
-  "start_url": "/amp/index.html",
+  "start_url": "/nata_pwa_/amp/index.html",
   "background_color": "#000",
   "display": "standalone",
-  "scope": "/amp",
+  "scope": "/",
   "theme_color": "#000"
 }
