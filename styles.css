@@ -4,8 +4,8 @@
 }
 body{
   opasity: 0.39;
-  background: #FFE4E1;//#FAEBD7 ; //#FFC0CB; //#FFE4E1;#ffd1cc; /
-  font-weight: 600;
+  background: ghostwhite;#FFE4E1;//#FAEBD7 ; //#FFC0CB; //#FFE4E1;#ffd1cc; /
+  font-size: 11px;
   -webkit-text-size-adjust: 100%;
 }
 /*
@@ -48,7 +48,7 @@ main {
   width: 70px;
 }
 #burg{
-  width: 98%;
+  width: 100%;
   background: #0f0f0f;
   padding: 7.5px 0 7.5px 2%;
 }
@@ -154,11 +154,4 @@ a{
 input, button, h6{
   color: lightgray;
   background-color: black;
-}
-audio{
-  height: 19px;
-  color: black;
-  background: black;
-  background-color: black;
-  z-index: 9;
 }

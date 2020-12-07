@@ -26,7 +26,7 @@
 $('.mobile-tab').hide();
 
 $('#burg').on('click', function(){
-  $('.mobile-tab').slideToggle(600)
+  $('.mobile-tab').slideToggle(299)
 })
 
 $('#podr_info').hide();
