@@ -29,18 +29,20 @@ $('#burg').on('click', function(){
   $('.mobile-tab').slideToggle(299)
 })
 
+
 $('#podr_info').hide();
-  $('#podr').on('click', function(){
-    $('#podr_main').hide(1200);
-    $('#podr_info').slideDown(1300)
-  })
 
-  $('#open_to_listen').hide();
+$('#podr').on('click', function(){
+  $('#podr_main').hide(1200);
+  $('#podr_info').slideDown(1300)
+})
 
-    $('#listen').on('click', function(){
+$('#open_to_listen').hide();
+
+$('#listen').on('click', function(){
 //      $(this).hide(1888);
-      $('#open_to_listen').slideToggle(1000)
-    })
+  $('#open_to_listen').slideToggle(1000)
+})
 
   // $('#main_name').on('hover', function(){
   // //  $(this).fadeOut(100);
