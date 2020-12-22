@@ -31,19 +31,18 @@ $('#burg').on('click', function(){
 
 $('#podr_info').hide();
   $('#podr').on('click', function(){
-    $('#podr_main').hide(1800);
-
-    $('#podr_info').slideDown(1999)
+    $('#podr_main').hide(1200);
+    $('#podr_info').slideDown(1300)
   })
 
   $('#open_to_listen').hide();
 
     $('#listen').on('click', function(){
 //      $(this).hide(1888);
-      $('#open_to_listen').slideDown(1999)
+      $('#open_to_listen').slideToggle(1000)
     })
 
-  $('#main_name').hover(function(){
-    $(this).fadeOut(100);
-    $(this).fadeIn(500);
-  })
+  // $('#main_name').on('hover', function(){
+  // //  $(this).fadeOut(100);
+  //   $(this).fadeIn(500);
+  // })

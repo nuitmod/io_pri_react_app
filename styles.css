@@ -146,12 +146,23 @@ h6{
   margin: 0;
   padding: 0;
 }
+h4, h3{
+  text-decoration: underline;
+}
 a{
   text-decoration: none;
-  color: lightgray;
+  color: ghostwhite;
   background: #0f0f0f;
+}
+button{
+  margin: 1px 5px;
+  padding: 1px 5px;
+  border: 0;
 }
 input, button, h6{
   color: lightgray;
   background-color: black;
+}
+.poetry_menu{
+  padding: 0 7px
 }
